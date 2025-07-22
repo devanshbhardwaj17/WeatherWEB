@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="WeatherApp.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <h1>Weather App</h1>
+        <div id="inputConatainer">
+            <input type="text" name="" placeholder="Location" id="location">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="informationContainer">
+            <div id="weatherDeatails">
+                <p id="location-name">CityName</p>
+                <p id="temp" class="info">XX°C</p>
+                <p id="time"class="info">hh-mm-ss tz</p>
+                <P id="day" class="info">Today</P>
+                <p id="wind" class="info">Wind :- XX km/h</p>
+                <p id="humidity" class="info">Humidity :- XX%</p>
+
+            </div>
+            <div id="icons">
+                <img id="emogi" src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="">
+                <p id="condition">Condition</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="WeatherApp.js"></script>
+</script>
+</html>
