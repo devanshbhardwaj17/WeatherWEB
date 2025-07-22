@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainContainer{
+    height: 60%;
+    width: 40%;
+    box-shadow: 0 0 50px black;
+    background-color: #212121;
+    border-radius: 20px;
+}
+#mainContainer h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(200, 181, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(200, 181, 146);
+    padding: 5px;
+}
+#inputConatainer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+}
+#searchBtn{
+    height: 90%;
+    width: 15%;
+    background-color: wheat;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: cursive;
+}
+#searchBtn:hover{
+    background-color: maroon;
+    color:wheat;
+    box-shadow: 0 0 5px wheat;
+}
+#location{
+    height: 90%;
+    width: 70%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid wheat;
+    font-size: 25px;
+    outline: none;
+    color: wheat;
+}
+#informationContainer{
+    height: 70%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    padding: 2%;
+}
+#weatherDeatails{
+    height: 100%;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: wheat;
+    font-size: 22px;
+    text-align: end;
+    padding-top: 10px;
+    
+}
+#location-name{
+    font-size: 40px;
+    color:white;
+}
+#icons{
+    height: 100%;
+    width: 50%;
+    padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(220, 151, 22);
+    font-size: 18px;
+    
+}
+
+
+
+
+
+@media (max-width:1300px) {
+    #searchBtn{
+        font-size: 20px;
+    }
+}
+@media (max-width:1150px) {
+    #searchBtn{
+        font-size: 18px;
+    }
+}
+@media (max-width:1000px) {
+    #searchBtn{
+        font-size: 15px;
+        height: 75%;
+    }
+    #mainContainer{
+        height: 40%;
+        width: 75%;
+    }
+    #location-name{
+        font-size: 35px;
+    }
+    .info{
+        font-size: 18px;
+    }
+}
+@media (max-width:600px) {
+    #searchBtn{
+        font-size: 15px;
+        height: 75%;
+    }
+    #mainContainer{
+        height: 40%;
+        width: 80%;
+    }
+}
+@media (max-width:440px) {
+    #searchBtn{
+        font-size: 12px;
+        height: 75%;
+    }
+}
+@media (max-width:400px) {
+    
+    #location-name{
+        font-size: 30px;
+    }
+    .info{
+        font-size: 16px;
+    }
+}
+@media (max-width:350px) {
+    .info{
+        font-size: 12px;
+    }
+    #searchBtn{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-height:680px) {
+       #mainContainer{
+        height: 70%;
+       }
+}
+@media (max-height:375px) {
+    #mainContainer{
+        height: 90%;
+       }
+    #mainContainer h1{
+        font-size: 20px;
+    }
+    #inputConatainer{
+        height: 8%;
+    }
+}
+@media (max-height:300px) {
+    #mainContainer{
+        height: 95%;
+       }
+}
