@@ -5,6 +5,7 @@ let btn=document.querySelector(`#searchBtn`)
 btn.addEventListener("click",()=>{
     let city=document.querySelector(`#location`).value
     weatherFinding(city)
+city= city.replace(/\s+$/,'')
 })
 
 
